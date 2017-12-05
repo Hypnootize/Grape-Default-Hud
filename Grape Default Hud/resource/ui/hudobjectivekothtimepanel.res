@@ -168,6 +168,7 @@
 				"font"			"HudFontSmall"
 				"font_minmode"	"HudFontSmall"
 				"font_lodef"	"HudFontSmall"
+			}
 		}	
 	}
 	
