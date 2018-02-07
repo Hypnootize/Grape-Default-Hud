@@ -5,7 +5,7 @@
 		"fieldName"		"RoundCounter"
 		"xpos"			"cs-0.5"
 		"ypos"			"-2"
-		"zpos"			"7"		
+		"zpos"			"2"		
 		"wide"			"300"
 		"tall"			"25"
 		"visible"		"1"
@@ -54,12 +54,59 @@
 		"fieldName"		"Background"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
-		"zpos"			"-9999"
-		"wide"			"70"
-		"tall"			"30"
+		"zpos"			"5"
+		"wide"			"115"
+		"tall"			"0"
 
 		"backgroundtype"		"2"
 		"proportionaltoparent"	"1"
-		"fillcolor"				"0 0 0 100"
+			
+		"image"					"../hud/comp_round_timer"
+		"scaleimage"			"1"
 	}
+	
+	"BlueScoreBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"BlueScoreBG"
+		"xpos"			"c-36"
+		"ypos"			"0"
+		"wide"			"36"
+		"tall"			"12"
+		"proportionaltoparent"	"1"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"70 120 160 255"
+
+	}
+	
+	"RedScoreBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RedScoreBG"
+		"xpos"			"c0"
+		"ypos"			"0"
+		"wide"			"36"
+		"tall"			"12"
+		"proportionaltoparent"	"1"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"180 50 50 255"
+	}
+	
+	"TimerBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"TimerBG"
+		"xpos"			"c-36"
+		"ypos"			"12"
+		"wide"			"72"
+		"tall"			"16"
+		"proportionaltoparent"	"1"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 125"
+
+	}
+	
 }
