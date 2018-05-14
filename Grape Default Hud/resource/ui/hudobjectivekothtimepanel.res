@@ -32,61 +32,39 @@
 		
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"xpos_minmode"			"cs-0.5"
-			"ypos"					"0"
-			"ypos_minmode"			"0"
-			"delta_item_x"			"10"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
+			"xpos"				"38"
+			"xpos_minmode"		"38"
+			"ypos"				"-7"
+			"ypos_minmode"		"-7"
 		}
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontMediumSmall"
 			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMedium"
 			"fgcolor"		"TanLight"
 			"xpos"			"23"
 			"xpos_minmode"	"39"
-			"xpos_hidef"	"114"
-			"xpos_lodef"	"114"
 			"ypos"			"11"
 			"ypos_minmode"	"6"
-			"ypos_hidef"	"15"
-			"ypos_lodef"	"18"
 			"zpos"			"3"
 			"wide"			"45"
 			"wide_minmode"	"30"
-			"wide_lodef"	"50"
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 			
 			if_match
 			{
-				"proportionaltoparent"	"1"
-
-				"xpos"			"15"
-				"xpos_minmode"	"15"
-				"ypos"			"12"
-				"ypos_minmode"	"12"
-				"tall"			"10"
-				"wide"			"35"
-				"wide_minmode"	"35"
+				"xpos_minmode"	"23"
+				"ypos_minmode"	"11"
+				"wide_minmode"	"45"
 				"font"			"HudFontSmall"
 				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
-			
 			}
 		}	
 	}
@@ -114,60 +92,39 @@
 		
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"xpos_minmode"			"cs-0.5"
-			"ypos"					"0"
-			"ypos_minmode"			"0"
-			"delta_item_x"			"50"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
+			"xpos"				"72"
+			"xpos_minmode"		"72"
+			"ypos"				"-7"
+			"ypos_minmode"		"-7"
 		}
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontMediumSmall"
 			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMedium"
 			"fgcolor"		"TanLight"
 			"xpos"			"23"
 			"xpos_minmode"	"39"
-			"xpos_hidef"	"114"
-			"xpos_lodef"	"114"
 			"ypos"			"11"
 			"ypos_minmode"	"6"
-			"ypos_hidef"	"15"
-			"ypos_lodef"	"18"
 			"zpos"			"3"
 			"wide"			"45"
 			"wide_minmode"	"30"
-			"wide_lodef"	"50"
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 			
 			if_match
 			{
-				"proportionaltoparent"	"1"
-
-				"xpos"			"rs1-15"
-				"xpos_minmode"	"rs1-15"
-				"ypos"			"12"
-				"ypos_minmode"	"12"
-				"wide"			"35"
-				"wide_minmode"	"35"
-				"tall"			"10"
+				"xpos_minmode"	"23"
+				"ypos_minmode"	"11"
+				"wide_minmode"	"45"
 				"font"			"HudFontSmall"
 				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
 			}
 		}	
 	}

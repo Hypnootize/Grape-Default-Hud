@@ -6,16 +6,12 @@
 		"fieldName"		"TimePanelBG"
 		"xpos"			"99999"//16
 		"xpos_minmode"	"99999"//35
-		"xpos_hidef"	"108"
-		"xpos_lodef"	"108"
 		"ypos"			"9"
 		"zpos"			"2"
 		"wide"			"78"
 		"wide_minmode"	"38"
-		"wide_lodef"	"90"
 		"tall"			"33"
 		"tall_minmode"	"23"
-		"tall_lodef"	"38"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_blue_bg"
@@ -27,8 +23,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"	"9999"
 		}
 	}
 	"TimerBG"
@@ -41,7 +36,6 @@
 		"zpos"			"2"
 		"wide"			"78"
 		"wide_minmode"	"38"
-		"wide_lodef"	"90"
 		"tall"			"30"
 		"tall_minmode"	"19"
 		"alpha"	"175"
@@ -53,9 +47,7 @@
 		"scaleImage"		"1"
 		"teambg_1"		"replay/thumbnails/bg_red"
 		"teambg_2"		"replay/thumbnails/bg_red"
-		"teambg_2_lodef"	"replay/thumbnails/bg_red"
 		"teambg_3"		"replay/thumbnails/bg_blue"
-		"teambg_3_lodef"	"replay/thumbnails/bg_blue"
 	
 		
 		"src_corner_height"		"23"				// pixels inside the image
@@ -66,8 +58,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"	"9999"
 		}
 	}
 	"TimePanelProgressBar"
@@ -75,16 +66,10 @@
 		"ControlName"			"CTFProgressBar"
 		"fieldName"			"TimePanelProgressBar"
 		"xpos"				"67"
-		"xpos_hidef"		"159"
-		"xpos_lodef"		"165"
 		"ypos"				"16"
-		"ypos_hidef"		"15"
-		"ypos_lodef"		"16"
 		"zpos"				"4"	
 		"wide"				"20"
-		"wide_lodef"		"25"
 		"tall"				"20"
-		"tall_lodef"		"25"	
 		"visible"			"1"
 		"visible_minmode"	"0"
 		"enabled"			"1"
@@ -97,8 +82,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"	"9999"
 		}
 	}
 	"WaitingForPlayersLabel"
@@ -119,13 +103,10 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubTextTiny"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"	"9999"
 		}
 	}			
 	"WaitingForPlayersBG"
@@ -134,8 +115,6 @@
 		"fieldName"		"WaitingForPlayersBG"
 		"xpos"			"30"	[$WIN32]
 		"ypos"			"42"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"50"
 		"tall"			"17"
@@ -147,15 +126,12 @@
 		"scaleImage"		"1"
 		"teambg_1"		"replay/thumbnails/bg_red"
 		"teambg_2"		"replay/thumbnails/bg_red"
-		"teambg_2_lodef"	"replay/thumbnails/bg_red"
 		"teambg_3"		"replay/thumbnails/bg_blue"
-		"teambg_3_lodef"	"replay/thumbnails/bg_blue"
 		"scaleImage"		"1"	
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"	"9999"
 		}
 	}
 	"OvertimeLabel"
@@ -176,13 +152,10 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubText"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"	"9999"
 		}
 	}			
 	"OvertimeBG"
@@ -191,8 +164,6 @@
 		"fieldName"		"OvertimeBG"
 		"xpos"			"30"	[$WIN32]
 		"ypos"			"42"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"50"
 		"tall"			"17"
@@ -204,15 +175,12 @@
 		"scaleImage"		"1"
 		"teambg_1"		"replay/thumbnails/bg_red"
 		"teambg_2"		"replay/thumbnails/bg_red"
-		"teambg_2_lodef"	"replay/thumbnails/bg_red"
 		"teambg_3"		"replay/thumbnails/bg_blue"
-		"teambg_3_lodef"	"replay/thumbnails/bg_blue"
 		"scaleImage"		"1"	
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"	"9999"
 		}
 	}
 	"SuddenDeathLabel"
@@ -233,13 +201,10 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubTextSuddenDeath"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"	"9999"
 		}
 	}			
 	"SuddenDeathBG"
@@ -248,8 +213,6 @@
 		"fieldName"		"SuddenDeathBG"
 		"xpos"			"30"	[$WIN32]
 		"ypos"			"42"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"50"
 		"tall"			"17"
@@ -261,15 +224,12 @@
 		"scaleImage"		"1"
 		"teambg_1"		"replay/thumbnails/bg_red"
 		"teambg_2"		"replay/thumbnails/bg_red"
-		"teambg_2_lodef"	"replay/thumbnails/bg_red"
 		"teambg_3"		"replay/thumbnails/bg_blue"
-		"teambg_3_lodef"	"replay/thumbnails/bg_blue"
 		"scaleImage"		"1"	
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"	"9999"
 		}
 	}	
 	"SetupLabel"
@@ -291,13 +251,10 @@
 		"wrap"			"0"
 		"font"			"ClockSubText"
 		"font_minmode"	"ClockSubTextSuddenDeath"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"	"9999"
 		}
 	}	
 	"SetupBG"
@@ -306,8 +263,6 @@
 		"fieldName"		"SetupBG"
 		"xpos"			"30"	[$WIN32]
 		"ypos"			"42"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"50"
 		"tall"			"17"
@@ -319,15 +274,12 @@
 		"scaleImage"		"1"
 		"teambg_1"		"replay/thumbnails/bg_red"
 		"teambg_2"		"replay/thumbnails/bg_red"
-		"teambg_2_lodef"	"replay/thumbnails/bg_red"
 		"teambg_3"		"replay/thumbnails/bg_blue"
-		"teambg_3_lodef"	"replay/thumbnails/bg_blue"	
 		"scaleImage"		"1"	
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"	"9999"
 		}
 	}
 	"ServerTimeLimitLabel"
@@ -349,8 +301,13 @@
 		"wrap"			"0"
 		"font"			"ClockSubText"
 		"font_minmode"	"ClockSubTextSuddenDeath"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
+		
+		if_match
+		{
+			"xpos"		"7"
+			"ypos"		"30"
+			"ypos_minmode"	"30"
+		}
 	}	
 	"ServerTimeLimitLabelBG"
 	{
@@ -358,8 +315,6 @@
 		"fieldName"		"ServerTimeLimitLabelBG"
 		"xpos"			"30"	[$WIN32]
 		"ypos"			"42"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"50"
 		"tall"			"17"
@@ -371,9 +326,12 @@
 		"scaleImage"		"1"
 		"teambg_1"		"replay/thumbnails/bg_red"
 		"teambg_2"		"replay/thumbnails/bg_red"
-		"teambg_2_lodef"	"replay/thumbnails/bg_red"
 		"teambg_3"		"replay/thumbnails/bg_blue"
-		"teambg_3_lodef"	"replay/thumbnails/bg_blue"
 		"scaleImage"		"1"	
+		
+		if_match
+		{
+			"xpos"	"9999"
+		}
 	}
 }
